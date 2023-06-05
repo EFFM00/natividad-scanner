@@ -22,6 +22,7 @@ RUN apt-get update && apt-get install -y \
     libxrandr2 \
     libgbm1 \
     libasound2 \
+    libcups.so.2 \
     && apt-get clean
 RUN npx playwright install
 
