@@ -23,7 +23,7 @@ async function main() {
 
       const texto = await centerElement.innerText();
 
-      if(!texto.includes(textSearch)) {
+      if(texto.includes(textSearch)) {
         console.log(texto);
         console.log("-------");
 
